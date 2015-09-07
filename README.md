@@ -1,3 +1,16 @@
+# Vim Amix Mod
+This repository has been forked from [https://github.com/amix/vimrc](https://github.com/amix/vimrc)
+
+## How to install the Awesome version?
+
+	git clone https://github.com/legendary-mich/vimrc ~/.vim_amix-mod
+	sh ~/.vim_amix-mod/install_awesome_vimrc.sh
+
+
+---
+# What follows comes from the original repository
+---
+
 # The Ultimate vimrc
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
