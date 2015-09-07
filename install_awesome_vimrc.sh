@@ -1,14 +1,14 @@
-cd ~/.vim_runtime
+cd ~/.vim_amix-mod
 
-echo 'set runtimepath+=~/.vim_runtime
+echo 'set runtimepath+=~/.vim_amix-mod
 
-source ~/.vim_runtime/vimrcs/basic.vim
-source ~/.vim_runtime/vimrcs/filetypes.vim
-source ~/.vim_runtime/vimrcs/plugins_config.vim
-source ~/.vim_runtime/vimrcs/extended.vim
+source ~/.vim_amix-mod/vimrcs/basic.vim
+source ~/.vim_amix-mod/vimrcs/filetypes.vim
+source ~/.vim_amix-mod/vimrcs/plugins_config.vim
+source ~/.vim_amix-mod/vimrcs/extended.vim
 
 try
-source ~/.vim_runtime/my_configs.vim
+source ~/.vim_amix-mod/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
