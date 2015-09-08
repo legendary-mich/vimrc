@@ -46,6 +46,9 @@
 " MS-Windows way of CTRL-X, CTRL-C and CTRL-V
 source $VIMRUNTIME/mswin.vim
 
+" Turns off cursor blinking
+set guicursor+=a:blinkon0
+
 " Sets how many lines of history VIM has to remember
 set history=500
 
