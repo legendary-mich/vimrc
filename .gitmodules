@@ -1,0 +1,3 @@
+[submodule "sources_non_forked/neocomplete"]
+	path = sources_non_forked/neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git
