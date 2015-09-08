@@ -43,6 +43,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" MS-Windows way of CTRL-X, CTRL-C and CTRL-V
+source $VIMRUNTIME/mswin.vim
+
 " Sets how many lines of history VIM has to remember
 set history=500
 
