@@ -36,6 +36,7 @@ if has("gui_running")
     set background=dark
     " colorscheme peaksea
     colorscheme jellybeans
+    highlight ColorColumn guibg=#335533
 else
     colorscheme desert
     let g:colors_name="desert"

@@ -145,6 +145,8 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Add color column
+set colorcolumn=80
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
