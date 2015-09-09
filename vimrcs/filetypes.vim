@@ -34,7 +34,8 @@ au FileType javascript imap <c-a> alert();<esc>hi
 
 function! JavaScriptFold() 
     setl foldmethod=syntax
-    setl foldlevelstart=1
+    setl foldlevelstart=20
+    setl foldlevel=20
     syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
 
     function! FoldText()
