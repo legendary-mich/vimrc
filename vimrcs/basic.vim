@@ -357,6 +357,8 @@ map <leader>sp [s
 map <leader>sa zg
 map <leader>s? z=
 
+" languages to do spell checking for
+set spelllang=en,pl
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
