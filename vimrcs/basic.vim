@@ -277,6 +277,10 @@ endtry
 " Remember info about open buffers on close
 " set viminfo^=%
 
+" Split window horizontally
+map <leader>sf :split<cr>
+" Close active window
+map <leader>sg <c-w>c
 
 """"""""""""""""""""""""""""""
 " => Status line
