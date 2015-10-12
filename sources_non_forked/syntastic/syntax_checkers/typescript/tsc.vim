@@ -36,7 +36,7 @@ endfunction
 
 function! SyntaxCheckers_typescript_tsc_GetLocList() dict
     let makeprg = self.makeprgBuild({
-        \ 'args': '--module commonjs --jsx react',
+        \ 'args': '--module commonjs --jsx react --noImplicitAny',
         \ 'args_after': (s:tsc_new ? '--noEmit' : '--out ' . syntastic#util#DevNull()) })
 
     let errorformat =
