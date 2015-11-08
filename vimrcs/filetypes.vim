@@ -18,7 +18,6 @@ au FileType python map <buffer> <leader>2 /def
 au FileType python map <buffer> <leader>C ?class 
 au FileType python map <buffer> <leader>D ?def 
 
-
 """"""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
@@ -44,6 +43,16 @@ function! JavaScriptFold()
     setl foldtext=FoldText()
 endfunction
 
+""""""""""""""""""""""""""""""
+" => Typescript section
+"""""""""""""""""""""""""""""""
+au FileType typescript call TypescriptFold ()
+
+function! TypescriptFold ()
+    setl foldmethod=syntax
+    setl foldlevelstart=20
+    setl foldlevel=20
+endfunction
 
 """"""""""""""""""""""""""""""
 " => CoffeeScript section
