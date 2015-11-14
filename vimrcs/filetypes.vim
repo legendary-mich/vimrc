@@ -55,6 +55,16 @@ function! TypescriptFold ()
 endfunction
 
 """"""""""""""""""""""""""""""
+" => YAML section
+"""""""""""""""""""""""""""""""
+au FileType yaml call YamlIndent ()
+
+function! YamlIndent ()
+    setl shiftwidth=2
+    setl tabstop=2
+endfunction
+
+""""""""""""""""""""""""""""""
 " => CoffeeScript section
 """""""""""""""""""""""""""""""
 function! CoffeeScriptFold()
