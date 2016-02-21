@@ -117,8 +117,9 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
-let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_javascript_checkers = ['jsxhint']
+" let g:syntastic_javascript_checkers = ['jshint']
+" let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 " Custom CoffeeScript SyntasticCheck
 func! SyntasticCheckCoffeescript()
