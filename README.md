@@ -3,7 +3,7 @@ This repository has been forked from [https://github.com/amix/vimrc](https://git
 
 ## How to install the Awesome version?
 
-	git clone https://github.com/legendary-mich/vimrc ~/.vim_amix-mod
+	git clone --recursive git@github.com/legendary-mich/vimrc ~/.vim_amix-mod
 	sh ~/.vim_amix-mod/install_awesome_vimrc.sh
 
 
