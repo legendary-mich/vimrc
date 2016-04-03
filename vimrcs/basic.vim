@@ -279,8 +279,9 @@ endtry
 
 " Split window horizontally
 map <leader>sf :split<cr>
+map <leader>sd :vsplit<cr>
 " Close active window
-map <leader>sg <c-w>c
+map <leader>sc <c-w>c
 
 """"""""""""""""""""""""""""""
 " => Status line
